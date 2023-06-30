@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(233, 215, 207);
+  text-align: center;
+  color: rgb(83, 75, 75);
+  margin: 32px;
+
+}
+h1 {
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(21, 50, 238);
+}
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  padding: 12px;
+  background-color: rgb(167, 1, 78);
+  font-size: 24px;
+  color: wheat;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: rgb(192, 41, 106);
+}
+
+ol {
+  list-style: none;
+}
+
+li {
+  background-color: rgb(223, 136, 124);
+  margin: 24px auto 0 auto;
+  width: 500px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+  animation: bounce 0.5s infinite;
+}
+
+.slide-out {
+  animation: slideOut 0.5s forwards;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes slideOut {
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  li {
+    width: auto;
+  }
+}
